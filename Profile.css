@@ -1,0 +1,72 @@
+
+body{
+    margin: 0;
+    background-image: url(./Pictures/Background.JPG);
+    background-repeat: no-repeat;
+    background-size: cover; 
+    text-align: center;
+    width:100vw;
+    height: 100vw;
+}
+
+canvas{
+    margin-top:-8%;
+}
+#intro{
+    margin-top:-20%;
+    position: relative;
+}
+#name{
+    font-family:'Bilbo';
+    font-weight: bold;
+    font-size: 40px;
+}
+#fs{
+    font-family:'Bahianita';
+}
+#articleheading{
+    margin-top:10%;
+    font-family:'Bahianita';
+    color:darkgrey;
+    opacity: 80%;
+}
+#button {
+    background: black; 
+    font-family: 'Julee';
+}
+#sd{
+    margin-left:3%;
+}
+#sec{
+margin-top:5%;
+}
+section div{
+    margin-top:10%;
+    border: 2px solid black;
+    border-image:linear-gradient(-20deg, red, black, yellow, purple);
+    border-image-slice:1;
+    position: relative;
+    padding: 3% 3%;
+    font-family:'Bahianita';
+    font-size: 20px;
+    color:darkgrey;
+    opacity: 80%;
+}
+#iframe{
+padding:1%;
+}
+#no{
+border:none;
+}
+#knownT{
+    margin-top:35%;
+} 
+#techs{
+    font-family: 'Julee';
+    font-size: 14px;
+    color:darkgrey;
+    opacity: 70%;
+}
+article div h5{
+    color: darkgrey;
+}
