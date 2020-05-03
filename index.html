@@ -8,12 +8,9 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Bahianita">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Julee">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script> 
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script> 
-    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> 
     <title>Mohan</title>
-    <link rel="shortcut icon" href="./Pictures/Logo2.ico">
-    
+    <link rel="shortcut icon" href="./Pictures/Logo2.ico">   
 </head> 
 <body>
     <header>
@@ -33,57 +30,108 @@
                             <a href="#Knowledge">Profile</a>
                         </li>
                         <li><a href="#Projects">Projects</a></li>
-                        <li><a href="#ExtraCurricular">Hobbies</a></li>
-                        <li><a href="#Connections">Contact us</a></li>
+                        <li><a href="#connections">Contact us</a></li>
                     </ul>
                 </div>
             </div>
         </nav>
     </header>
     <canvas></canvas>
-    <article class=".container-fluid" id="intro">
-            <h1 id="name">Mohan</h1>
-            <h3 id="fs">Full Stack Developer</h3>
-            <a href="./Pictures/Mohan S.pdf"><button class="btn border" id="button">Resume</button></a>
-    </article>
-    <section id="sec">
+            <div class="container" id="details">
+                <h1 id="name">Mohan</h1>
+                <h3 id="fs">Full Stack Developer</h3>
+                <a href="./Pictures/MohanS.pdf" target="_blank" title="Mohan S"><button class="btn border" id="button">Resume</button></a>
+            </div>
+    <p style="height:200px;" id="Knowledge"></p>
+    <section class="container" >
+    <div class="row">
         <div class="col-sm-4" id="sd">
             Few lines about myself, A technology freak, passionate to learn and gain more and more knowledge about many aspects in day to day life, at the same time relaxed thinker, creative mind with a enthusiam to work and explore differant technoligies and always trying to get the best result.
         </div>
-        <div class="col-sm-3" id="no">
-
-        </div>
         <div class="col-sm-4" id="iframe">
-    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3888.086274198313!2d77.67756701413518!3d12.96633101850381!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae13de8ed8632f%3A0xecf64303b0d04e6d!2sChitrakut%20Environs%2C%209th%20Cross%20Rd%2C%20Talacauvery%20Layout%2C%20Basavanagara%2C%20Bengaluru%2C%20Karnataka%20560037!5e0!3m2!1sen!2sin!4v1588400421470!5m2!1sen!2sin" width=90% allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
-    </div>    
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3888.086274198313!2d77.67756701413518!3d12.96633101850381!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae13de8ed8632f%3A0xecf64303b0d04e6d!2sChitrakut%20Environs%2C%209th%20Cross%20Rd%2C%20Talacauvery%20Layout%2C%20Basavanagara%2C%20Bengaluru%2C%20Karnataka%20560037!5e0!3m2!1sen!2sin!4v1588400421470!5m2!1sen!2sin" width=90% allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+        </div> 
+    </div>   
     </section>
-    
-    <div id="knownT">
-        <h3 id="articleheading">Known Technologies</h3>
-        <div class="col-sm-3" id="techs">
+    <section>
+        <h3 id="articleheading">Knowning Technologies</h3>
+    </section>
+    <br>
+    <article id="techs">
+        <div class="col-md-3" >
             <h5><u>Java</u></h5> 
-            With faculties support, and because of this I got a good hold on Java technology and utilising the language to solve the some of the replica's of real word problems irrespective of Collections,JSP, JSTL, Hibernate.
+            I have a good knowledge of Java technology and utilising the language to solve the some of the real word problems using collections,JSP, JSTL and Hibernate.
         </div>
-        <div class="col-sm-3" id="techs">
+        <div class="col-md-3" >
             <h5><u>HTML5 & CSS</u></h5>
             As being the scripting language it helped me to explore more creativity with CSS technology.
         </div>
-        <div class="col-sm-3" id="techs">
+        <div class="col-md-3">
             <h5><u>JavaScript </u></h5>
             Javascript, made me to get goose bumps when I saw the variant advantages because of language advancement, with the various labraries resources.
         </div>
-        <div class="col-sm-3" id="techs">
+        <div class="col-md-3">
             <h5><u>Angular</u></h5>
             Angualr framework tought me to write precise code and making code readable, maintainable. And impressed with the forms component iteraction.
         </div>
 
+    </article>
+    <p style="height:150px" id="Projects"></p>
+    <div>
+        <h3 id="articleheading">Projects</h3>
     </div>
-    <aside id="Projects" >
-    
-    </aside>
-    <aside id="ExtraCurricular">
+    <br>
 
+    <aside id="Pro">
+        <div class="row">
+            <div class="col-md-4" >
+                <div class="thumbnail" style="background: black; height:300px;">
+                    <img src="./Pictures/Cal1.jpg" width="350" class="rounded" alt="Calculator">
+                <div class="caption">
+                    <p style="color:maroon; font-size: 18px;">A Digital calculator with basic arthematic operations, operations with JavaScript</p>
+                </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="thumbnail" style="background: black; height:300px;">
+                    <img src="./Pictures/Cal2.jpg" width="300" class="rounded" alt="Calculator" >
+                <div class="caption">
+                    <p style="color:maroon; font-size: 18px;">A Digital calculator with basic arthematic operations, operations with JavaScript</p>
+                </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="thumbnail" style="background: black; height:300px;">
+                    <img src="./Pictures/Cal3.jpg" width="270" class="rounded" alt="Calculator">
+                <div class="caption">
+                    <p style="color:maroon; font-size: 18px;">A Digital calculator with basic arthematic operations, operations with JavaScript</p>
+                </div>
+                </div>
+            </div>
+        </div> 
     </aside>
+
+    <footer class="container-fluid" id="connections">
+        <h2>Social Connections</h2>
+            <a href="https://github.com/MohanSimple" class="fa fa-github" target="_blank"></a>
+            <a href="https://www.linkedin.com/in/mohan-s-265a70134/" target="_blank" class="fa fa-linkedin"></a>
+            <a href="https://www.hackerrank.com/mr_mohans02" target="_blank" class="fa fa-header"></a>
+            <a href="https://www.freecodecamp.org/mohans" target="_blank" class="fa fa-free-code-camp" ></a>
+            <a href="https://edabit.com/user/ZCeWjWRyDZnLkbSrr" class="fa fa-slideshare" target="_blank"></a>
+    </footer>
+
+    <footer>
+        <div class="container-fluid">
+            <img src="./Pictures/QRcode.PNG" height="150" width="100" alt="">
+        </div>
+        <div>
+            <h3 id="h5">Email or Call</h3>   
+            <a href="mailto:mr.mohans02@gmail.com" class="fa fa-envelope" target="_blank"></a>
+            <a href="tel:+918088039801" class="fa fa-mobile" target="_blank"></a>
+        </div>
+  </footer>
     <script src="Profile.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script> 
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 </body>
 </html>

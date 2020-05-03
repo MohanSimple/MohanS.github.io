@@ -1,72 +1,77 @@
-
 body{
-    margin: 0;
-    background-image: url(./Pictures/Background.JPG);
-    background-repeat: no-repeat;
-    background-size: cover; 
-    text-align: center;
-    width:100vw;
-    height: 100vw;
+text-align: center;
+background-image: url('./Pictures/Background.JPG');
+background-size:cover;
 }
-
 canvas{
-    margin-top:-8%;
-}
-#intro{
-    margin-top:-20%;
-    position: relative;
+margin-top:-5%;
 }
 #name{
-    font-family:'Bilbo';
-    font-weight: bold;
-    font-size: 40px;
+font-family:'Bilbo';
+font-weight: bold;
+color:maroon;
 }
 #fs{
-    font-family:'Bahianita';
-}
-#articleheading{
-    margin-top:10%;
-    font-family:'Bahianita';
-    color:darkgrey;
-    opacity: 80%;
+font-family:'Bahianita';
+color:maroon;
 }
 #button {
-    background: black; 
-    font-family: 'Julee';
+background: black; 
+font-family: 'Julee';
+}
+#articleheading{
+font-family:'Bahianita';
+color:darkgrey;
+opacity: 80%;
 }
 #sd{
-    margin-left:3%;
+border: 2px solid black;
+border-image:linear-gradient(-20deg, red, black, yellow, purple);
+border-image-slice:1;
+position: relative;
+padding: 3%;
+font-size:18px;
+font-family:'Bahianita';
+color:darkgrey;
+opacity: 80%;
 }
-#sec{
-margin-top:5%;
-}
-section div{
-    margin-top:10%;
-    border: 2px solid black;
-    border-image:linear-gradient(-20deg, red, black, yellow, purple);
-    border-image-slice:1;
-    position: relative;
-    padding: 3% 3%;
-    font-family:'Bahianita';
-    font-size: 20px;
-    color:darkgrey;
-    opacity: 80%;
+#details{
+margin-top:-23%;    
+position:relative
 }
 #iframe{
-padding:1%;
+float: right;
 }
-#no{
-border:none;
-}
-#knownT{
-    margin-top:35%;
-} 
 #techs{
-    font-family: 'Julee';
-    font-size: 14px;
-    color:darkgrey;
-    opacity: 70%;
+font-family: 'Julee';
+color:darkgrey;
+font-size:15px;
 }
-article div h5{
-    color: darkgrey;
+#Pro{
+font-family:'Julee';
+color:darkgrey;
 }
+#connections{
+    font-family:'Bahianita';
+    color:maroon;
+    background: black;
+}
+
+.fa {
+    padding: 20px;
+    font-size:40px;
+    width:80px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+  }
+  
+  .fa:hover {
+      color: maroon;
+  }
+  #h5{
+    font-family:'Bahianita';
+    color: maroon;
+  }
+  
+  
