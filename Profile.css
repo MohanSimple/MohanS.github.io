@@ -21,8 +21,7 @@ font-family: 'Julee';
 }
 #articleheading{
 font-family:'Bahianita';
-color:darkgrey;
-opacity: 80%;
+color:maroon;
 }
 #sd{
 border: 2px solid black;
@@ -73,5 +72,8 @@ color:darkgrey;
     font-family:'Bahianita';
     color: maroon;
   }
-  
+  .thumbnail{
+    background-color: black;
+    height: 315px;
+  }
   
